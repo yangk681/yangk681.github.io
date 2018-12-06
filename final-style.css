@@ -1,0 +1,69 @@
+html {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	margin-right: 25px;
+}
+p {
+	margin-right: 310px;
+}
+img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 175px;
+}
+body {
+	font-family: 'Bitter', serif;
+}
+.hero {
+	/* Sizing */
+	width: 98vw;
+	height: 100vh;
+
+	/* Flexbox stuff */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/* Text styles */
+	text-align: center;
+	color: white; /* ADD THIS LINE */
+
+	/* Background styles */
+	background-image: url(https://media.vanityfair.com/photos/5b7de0e13bff8a5e1b7ba504/master/pass/dnc-hackers.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.hero h3, h5 {
+	/* Text styles */
+	font-size: 5em;
+
+	/* Margins */
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+.hero .btn {
+	/* Positioning and sizing */
+	display: block;
+	width: 200px;
+
+	/* Padding and margins */
+	padding: 0em;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+	/* Text styles */
+	color: white; /* CHANGE THIS LINE */
+	text-decoration: none;
+	font-size: 1.5em;
+
+	/* Border styles */
+	border: 3px solid white; /* CHANGE THIS LINE */
+	border-radius: 20px;
+}
+#chart_div {
+	margin-left: 100px;
+}
